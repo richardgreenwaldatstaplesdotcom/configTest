@@ -1,0 +1,13 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://lcomqndbv03.staples.com:27017/NAD_FULL
+price:
+  api:
+    timeout: 200
+    promoMessageDefaultPriceType: default price type
+    promoMessageDefaultName: better promotion
+    promoHeadlinerDefaultText: new promotion
+    promoTermsDefaultText: offer does not expire
+    enableSuffixPricing: true
+    enableTierCoupons: true
